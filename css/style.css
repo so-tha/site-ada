@@ -1,0 +1,79 @@
+body{
+  text-align: center; /* coloca o texto no centro*/
+  font-family: Open Sans,sans-serif;
+  background-color: #8A71C9;
+  color: #ffffff;
+  margin: 0% 0% 0% 0%;
+}
+a{
+  color:#99ffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+h1{
+  font-size: 60px;
+  font-weight:300;
+}
+h2{
+  color: #2a0074; /*mudou a cor apenas do subtitulo */
+  font-size:  40px;
+}
+h3{
+   /*border: red 3px solid;Uma borda solida */
+  font-size: 22px;
+  font-style: italic;
+}
+p{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.titulo-verde{
+  color: #04ff9f /*nomes devem ser bem ilustrativos do que ele quer */
+/* indicar onde esta os documentos que serão mudados*/
+}
+.titulo-vermelho{
+  color: #ff9e9e
+}
+.titulo-amarelo{
+  color: #ffe36d
+}
+section {
+  width: 60%;
+  margin: 0 auto;
+ /* border - Cria uma borda envolta de toda a section */
+}
+section section{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+ul{
+  padding-left: 0;
+  list-style-type: none; 
+  line-height: 2;
+}
+.principal a{ /*muda apenas as tags a, de modo mais especifico*/
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+}
+.principal{
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+.principal li{
+  display: inline-block; /*deixa um ao lado do outro */
+  line-height: 2.5; /*altura da linha */
+  margin: 0 10% ;
+  }
+
+button{
+  background:  #41f341;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 2 20px; 
+}
